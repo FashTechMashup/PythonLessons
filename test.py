@@ -1,4 +1,4 @@
-x = "hello"
+
 print (x)
 
 y = False
