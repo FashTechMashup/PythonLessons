@@ -1,0 +1,174 @@
+Last login: Wed May 10 15:22:27 on ttys000
+Crystals-MacBook-Pro:~ kmist$ cd desktop
+Crystals-MacBook-Pro:desktop kmist$ cd coding
+Crystals-MacBook-Pro:coding kmist$ cd "python lessons"
+Crystals-MacBook-Pro:python lessons kmist$ cd LPTHW
+Crystals-MacBook-Pro:LPTHW kmist$ python ex7.py
+Mary had a little lamb.
+Its fleece was white as snow.
+And everywhere that Mary went.
+..........
+Cheese Burger
+Crystals-MacBook-Pro:LPTHW kmist$ python ex7.py
+Mary had a little lamb.
+Its fleece was white as snow.
+And everywhere that Mary went.
+..........
+Cheese
+Burger
+Crystals-MacBook-Pro:LPTHW kmist$ python ex8.py
+1 2 3 4
+'one' 'two' 'three' 'four'
+True False False True
+'%r %r %r %r' '%r %r %r %r' '%r %r %r %r' '%r %r %r %r'
+Traceback (most recent call last):
+  File "ex8.py", line 8, in <module>
+    "I had this thing."
+TypeError: not enough arguments for format string
+Crystals-MacBook-Pro:LPTHW kmist$ python ex8.py
+1 2 3 4
+'one' 'two' 'three' 'four'
+True False False True
+'%r %r %r %r' '%r %r %r %r' '%r %r %r %r' '%r %r %r %r'
+'I had this thing.' 'That you could type up right.' "But it didn't sing." 'So I said goodnight.'
+Crystals-MacBook-Pro:LPTHW kmist$ python ex8.py
+1 2 3 4
+one two three four
+True False False True
+%s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s
+I had this thing. That you could type up right. But it didn't sing. So I said goodnight.
+Crystals-MacBook-Pro:LPTHW kmist$ python ex9.py
+  File "ex9.py", line 14
+    """
+      ^
+SyntaxError: invalid syntax
+Crystals-MacBook-Pro:LPTHW kmist$ python ex9.py
+Here are the days:  Mon Tue Wed Thu Fri Sat Sun
+Here are the months:  Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+
+Crystals-MacBook-Pro:LPTHW kmist$ python ex9.py
+  File "ex9.py", line 6
+    print "Here are the days: %r", % days
+                                   ^
+SyntaxError: invalid syntax
+Crystals-MacBook-Pro:LPTHW kmist$ python ex8.py
+1 2 3 4
+'one' 'two' 'three' 'four'
+True False False True
+'%r %r %r %r' '%r %r %r %r' '%r %r %r %r' '%r %r %r %r'
+'I had this thing.' 'That you could type up right.' "But it didn't sing." 'So I said goodnight.'
+Crystals-MacBook-Pro:LPTHW kmist$ ex7.py
+-bash: ex7.py: command not found
+Crystals-MacBook-Pro:LPTHW kmist$ python ex7.py
+Mary had a little lamb.
+Its fleece was white as snow.
+And everywhere that Mary went.
+..........
+Cheese
+Burger
+Crystals-MacBook-Pro:LPTHW kmist$ python ex9.py
+  File "ex9.py", line 6
+    print "Here are the days: %r ", % days
+                                    ^
+SyntaxError: invalid syntax
+Crystals-MacBook-Pro:LPTHW kmist$ python ex9.py
+Here are the days: 'Mon Tue Wed Thu Fri Sat Sun' 
+Here are the months: 'Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug' 
+
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+
+Crystals-MacBook-Pro:LPTHW kmist$ python ex9.py
+Here are the days: Mon Tue Wed Thu Fri Sat Sun 
+Here are the months: Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug 
+
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+
+Crystals-MacBook-Pro:LPTHW kmist$ python ex9.py
+  File "ex9.py", line 6
+    print "Here are the days: " days
+                                   ^
+SyntaxError: invalid syntax
+Crystals-MacBook-Pro:LPTHW kmist$ python ex9.py
+Here are the days:  Mon Tue Wed Thu Fri Sat Sun
+Here are the months:  Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+
+Mon Tue Wed Thu Fri Sat Sun
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Crystals-MacBook-Pro:LPTHW kmist$ python ex9.py
+Traceback (most recent call last):
+  File "ex9.py", line 6, in <module>
+    print "Here are the days: " (days)
+TypeError: 'str' object is not callable
+Crystals-MacBook-Pro:LPTHW kmist$ pwd
+/Users/kmist/desktop/coding/python lessons/LPTHW
+Crystals-MacBook-Pro:LPTHW kmist$ python ex10.py
+	I'm tabbed in.
+I'm split
+on a line.
+I'm \ a \ cat.
+
+I'll do a list:
+	* Cat food
+	* Fishies
+	* Catnip
+	* Grass
+
+Crystals-MacBook-Pro:LPTHW kmist$ python ex10.py
+I am 6'2" tall.
+I am 6'2" tall.
+	I'm tabbed in.
+I'm split
+on a line.
+I'm \ a \ cat.
+
+I'll do a list:
+	* Cat food
+	* Fishies
+	* Catnip
+	* Grass
+
+Crystals-MacBook-Pro:LPTHW kmist$ 
